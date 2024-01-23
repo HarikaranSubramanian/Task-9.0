@@ -8,8 +8,7 @@
   - [Usage](#usage)
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
-
-
+  - [Demo](#demo)
 
 ## Features
 
@@ -17,7 +16,6 @@
 - Decimal point support
 - Clear button to reset the input
 - Responsive design using Bootstrap
-
 
 ## Usage
 
@@ -41,4 +39,6 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 
+## Demo
 
+Check out the live demo on [Netlify](https://netlify-calculator.netlify.app).
