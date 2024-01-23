@@ -1,0 +1,83 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    max-width: 400px;
+    /* Set a maximum width */
+    width: 100%;
+    /* Make it responsive */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+#equal {
+    width: 100%;
+    /* Make it full width */
+    height: 70px;
+    font-size: 30px;
+    color: red;
+}
+
+.btn {
+    width: 23%;
+    /* Distribute buttons evenly */
+    height: 70px;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+}
+
+/* Override the styles for specific buttons */
+#equal,
+#divide,
+#modulus,
+#clear,
+#add,
+#subtract,
+#multiply,
+#7,
+#8,
+#9,
+#4,
+#5,
+#6,
+#1,
+#2,
+#3,
+#0,
+#double-zero,
+#decimal {
+    background-color: #9c9fa0;
+    /* Light gray background */
+}
+
+/* Override the styles for button text color */
+#divide,
+#modulus,
+#add,
+#subtract,
+#multiply {
+    color: #000;
+}
+
+#clear {
+    color: red;
+}
